@@ -1,0 +1,41 @@
+#backgraund {
+  background-color: black;
+
+  display: inline-block;
+}
+.cube {
+  height: 50px;
+  width: 50px;
+  background-color: #66320e;
+  margin: 4px;
+}
+#middle {
+  width: 230px;
+  height: 2px;
+  background-color: darkred;
+  position: relative;
+  top: 55px;
+  border: 2px solid;
+}
+#block1 {
+  float: right;
+}
+#block2 {
+  float: right;
+}
+#block3 {
+  float: right;
+}
+#block4 {
+  float: right;
+}
+#block5 {
+  float: right;
+  margin-right: 62px;
+}
+#block6 {
+  float: right;
+}
+#block7 {
+  float: right;
+}

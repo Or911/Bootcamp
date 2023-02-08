@@ -1,0 +1,33 @@
+#redBox {
+  width: 250px;
+  height: 200px;
+  background-color: red;
+  border-radius: 5px;
+  position: relative;
+  margin: 50px;
+}
+#whitebox {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  border-bottom-left-radius: 5px;
+  border-end-end-radius: 5px;
+}
+.graycube {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: gray;
+}
+#leftcube {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 5px;
+}
+#rightcube {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 0px;
+  right: 0;
+}

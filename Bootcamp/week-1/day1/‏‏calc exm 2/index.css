@@ -1,0 +1,41 @@
+#bigBox {
+    width: calc(40%);
+    background-color: blue;
+    opacity: 1;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+  }
+  
+  .box {
+    background-color: rgba(255, 0, 0, 0.5);
+    height: 92px;
+    width: calc(32%);
+    display: inline-block;
+    border: solid 3px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    float: left;
+  }
+
+/*
+#box1{
+    background-color: blue;
+    width: calc(100% - 80px);
+    height: 100px;
+    display: inline-block;
+    margin: 0;
+    
+    
+}
+#box2{
+    background-color: brown;
+    width: 80px;
+    height: 100px;
+    right: 0px;
+    display: inline-block;
+    margin: 0;
+}*/

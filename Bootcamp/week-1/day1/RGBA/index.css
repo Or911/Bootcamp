@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}    
+img{
+    z-index: 1;
+}
+#box1{
+
+    background-color: rgb(22, 20, 115);
+    color: white;
+    position: absolute;
+    top: 0px;
+    width: 400px;
+    height: 100px;
+    z-index: 4;
+}
+#box2{
+
+    background-color: rgba(255, 242, 0, 0.5);
+    color: white;
+    position: absolute;
+    top: 110px;
+    width: 400px;
+    height: 100px;
+    z-index: 4;
+}

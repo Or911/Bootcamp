@@ -1,0 +1,26 @@
+
+ul {
+    
+  }
+  button:hover {
+    background-color: blue;
+    color: black;
+    border: 1px solid black;
+  }  
+
+  
+  p:nth-child(2) {/* all p element that is after p element will be aplyed */
+    background: rgb(142, 41, 41);
+  }
+
+
+  div > p  {/*All p elements that are direct descendants of a div are given green text */
+    color: green;
+
+
+  }  
+  
+  /* All p elements that within a div are given blue text */
+  div p {
+    color: blue;
+  }

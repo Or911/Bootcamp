@@ -1,0 +1,47 @@
+#bigDiv {
+  width: 180px;
+  height: 100px;
+  background-color: rgb(108, 92, 231);
+  position: relative;
+  border-radius: 4px;
+}
+.graph {
+  background-color: rgb(153, 157, 161);
+  width: 10px;
+  height: 10px;
+  display: inline;
+  margin: 0 2px 2px 2px;
+  position: absolute;
+  bottom: 0px;
+}
+#col2 {
+  left: 20px;
+  height: 50px;
+}
+#col3 {
+  left: 40px;
+  height: 70px;
+}
+#col4 {
+  left: 60px;
+  height: 60px;
+}
+#col5 {
+  left: 80px;
+  height: 50px;
+}
+#col6 {
+  left: 100px;
+  height: 30px;
+}
+
+h2 {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+#time {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  margin-bottom: 2px;
+}

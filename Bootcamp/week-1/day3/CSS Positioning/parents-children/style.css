@@ -1,0 +1,92 @@
+/* #parent{
+    
+    background-color: red;
+    display: inline-block;
+    padding: 10px;
+}
+#child1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 0;
+    margin-top:;
+}
+
+#child2{
+    margin: 0;
+    
+    width: 100px;
+    height: 100px;
+    background-color: green;
+} */
+
+/* 
+ position realtive 
+
+#parent{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+#child1{
+    position: relative;
+    left: 200px;
+    top: 200px; 
+    /* this properties aloowed becose we define ttis div to relative position */
+/*  
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+}
+
+#child2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+} */
+
+/* position absolote */
+
+#parent {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  position: relative;
+}
+#child1 {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  position: absolute;
+  right: 0;
+}
+#child2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: green;
+}
+#child3 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(246, 255, 0);
+  position: absolute;
+  bottom: 0;
+}
+#child4 {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(94, 0, 128);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#child5 {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}

@@ -1,0 +1,29 @@
+#container{
+    background-color: rgb(129, 129, 122);
+    display: block;
+    width: 160px;
+    box-shadow: 2px 2px 5px ;
+}
+.box{
+    display: inline-block;
+    border: 2px solid;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(182, 98, 29);
+}
+div :first-child{
+    background-color: rgb(18, 179, 77);
+}
+.button{
+    background-color: rgb(144, 226, 43);
+    position: relative;
+    left: 0px;
+    margin: 0;
+    
+
+}
+input{
+    display: inline;
+    width: 100px;
+    margin: 0;
+}

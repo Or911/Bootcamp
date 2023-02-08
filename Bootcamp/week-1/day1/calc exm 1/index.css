@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+}    
+#box1{
+    background-color: blue;
+    width: calc(100% - 80px);
+    height: 100px;
+    display: inline-block;
+    margin: 0;
+    
+    
+}
+#box2{
+    background-color: brown;
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    margin: 0;
+}

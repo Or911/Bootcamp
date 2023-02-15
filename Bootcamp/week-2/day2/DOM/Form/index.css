@@ -1,0 +1,35 @@
+#form {
+  background-color: aquamarine;
+  width: 250px;
+  height: 260px;
+  border: 3px lightseagreen solid;
+  padding: 20px 10px 10px 10px;
+  border-radius: 5px;
+  position: relative;
+}
+p {
+  margin: 30px 0 0 0;
+  font-weight: bold;
+}
+input {
+  width: 100%;
+  /* margin-right: 50px; */
+}
+.midlleSections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+}
+#SubmitButton {
+  border-radius: 5px;
+  border: 3px lightseagreen solid;
+  background-color: aquamarine;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 10px 10px 0;
+}
+#erorrMessage {
+  color: red;
+  margin: 0;
+}

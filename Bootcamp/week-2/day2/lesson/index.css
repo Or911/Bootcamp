@@ -1,0 +1,8 @@
+.buttons-container>button{
+    color: red;
+    background-color: aqua;
+}
+
+.buttons-container.big{
+    /* בוחר אלמט שיש לו שתי כלסים */
+}

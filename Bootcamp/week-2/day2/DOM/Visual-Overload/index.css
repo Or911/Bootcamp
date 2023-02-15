@@ -1,0 +1,11 @@
+#container{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+}
+.divs{
+    background-color: rgb(192, 192, 192);
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+}
